@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - 刺激的在线生存游戏 | Exciting Online Survival Game</title>
+    <meta name="description" content="Monster Survivors is an exciting online survival game where you battle endless waves of monsters. Play now for free on winstein01.com! | Monster Survivors是一款刺激的在线生存游戏，与无尽的怪物浪潮战斗。立即在winstein01.com免费游玩！">
+    <meta name="keywords" content="Monster Survivors, Survival Game, Online Game, Action Game, RPG, 生存游戏, 在线游戏, 动作游戏">
+    <meta name="author" content="winstein01.com">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Monster Survivors - 刺激的在线生存游戏">
+    <meta property="og:description" content="Battle endless waves of monsters in this thrilling survival game!">
+    <meta property="og:image" content="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/img/thumbnail.jpg">
+    <meta property="og:url" content="https://winstein01.com/">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://winstein01.com/" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            red: '#FF3B30',
+                            green: '#34C759',
+                            gray: {
+                                light: '#F2F2F7',
+                                medium: '#E5E5EA',
+                                dark: '#8E8E93'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-hidden {
+                display: none;
+            }
+            .content-visible {
+                display: block;
+            }
+        }
+    </style>
+    <!-- 结构化数据，提升SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Monster Survivors",
+      "description": "An exciting online survival game where you battle endless waves of monsters.",
+      "genre": ["Action", "Survival", "RPG"],
+      "gamePlatform": ["Web Browser", "HTML5"],
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+</head>
+<body class="bg-apple-gray-light text-gray-900 font-sans">
+    <header class="bg-gradient-to-r from-apple-blue to-blue-700 text-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold">Monster Survivors</h1>
+                    <p class="mt-2 text-xl">
+                        <span class="lang-en">Survive endless waves of monsters in this thrilling game!</span>
+                        <span class="lang-zh hidden">在这款惊险刺激的游戏中生存于无尽的怪物浪潮！</span>
+                    </p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <button id="toggle-lang" class="bg-white text-apple-blue px-4 py-2 rounded-lg font-medium hover:bg-blue-100 transition">
+                        <span class="lang-en">切换为中文</span>
+                        <span class="lang-zh hidden">Switch to English</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="w-full h-[70vh]">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                            class="w-full h-full" 
+                            frameborder="0" 
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-apple-blue mb-4">
+                    <span class="lang-en">Game Overview</span>
+                    <span class="lang-zh hidden">游戏概览</span>
+                </h2>
+                <div class="prose max-w-none">
+                    <p class="lang-en">
+                        Monster Survivors is an action-packed survival game where you face endless waves of monsters. 
+                        Your objective is simple: survive as long as possible while collecting power-ups and defeating 
+                        increasingly difficult enemies. With intuitive controls and addictive gameplay, Monster Survivors 
+                        offers hours of entertainment for gamers of all skill levels.
+                    </p>
+                    <p class="lang-zh hidden">
+                        Monster Survivors 是一款充满动作元素的生存游戏，你将面对无尽的怪物浪潮。
+                        你的目标很简单：尽可能长时间地生存，同时收集能力提升并击败越来越难对付的敌人。
+                        凭借直观的控制和令人上瘾的游戏玩法，Monster Survivors 为各种技能水平的游戏玩家提供了数小时的娱乐。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-apple-blue mb-4">
+                    <span class="lang-en">How to Play</span>
+                    <span class="lang-zh hidden">如何游玩</span>
+                </h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li class="lang-en">Use WASD or arrow keys to move your character</li>
+                    <li class="lang-en">Automatically attack nearby enemies</li>
+                    <li class="lang-en">Collect experience orbs to level up</li>
+                    <li class="lang-en">Choose new abilities when you level up</li>
+                    <li class="lang-en">Survive as long as possible!</li>
+                    
+                    <li class="lang-zh hidden">使用WASD或方向键移动你的角色</li>
+                    <li class="lang-zh hidden">自动攻击附近的敌人</li>
+                    <li class="lang-zh hidden">收集经验球以升级</li>
+                    <li class="lang-zh hidden">升级时选择新能力</li>
+                    <li class="lang-zh hidden">尽可能长时间地生存！</li>
+                </ul>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-apple-blue mb-4">
+                    <span class="lang-en">Features</span>
+                    <span class="lang-zh hidden">游戏特色</span>
+                </h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li class="lang-en">Roguelike elements with random power-ups</li>
+                    <li class="lang-en">Multiple character classes to unlock</li>
+                    <li class="lang-en">Diverse enemy types with unique behaviors</li>
+                    <li class="lang-en">Beautiful graphics and immersive sound effects</li>
+                    <li class="lang-en">Challenging boss encounters</li>
+                    
+                    <li class="lang-zh hidden">随机能力提升的Roguelike元素</li>
+                    <li class="lang-zh hidden">多个可解锁的角色类别</li>
+                    <li class="lang-zh hidden">具有独特行为的多种敌人类型</li>
+                    <li class="lang-zh hidden">精美的图形和沉浸式音效</li>
+                    <li class="lang-zh hidden">具有挑战性的Boss战</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-apple-blue mb-4">
+                    <span class="lang-en">Tips and Strategies</span>
+                    <span class="lang-zh hidden">技巧和策略</span>
+                </h2>
+                <div class="prose max-w-none">
+                    <p class="lang-en">
+                        To maximize your survival time in Monster Survivors, focus on creating a balanced build of abilities.
+                        Prioritize movement speed early on to help dodge enemies, then focus on increasing your attack power
+                        and range. Don't stay in one place for too long – keep moving to avoid being surrounded. 
+                        Health regeneration abilities can be crucial for long-term survival, so grab those when available!
+                    </p>
+                    <p class="lang-zh hidden">
+                        为了最大限度地延长你在Monster Survivors中的生存时间，专注于创建均衡的能力构建。
+                        在早期优先提高移动速度以帮助躲避敌人，然后专注于提高你的攻击力和攻击范围。
+                        不要在一个地方停留太久 - 保持移动以避免被包围。
+                        生命值再生能力对长期生存至关重要，所以在可用时一定要获取这些能力！
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; <span id="current-year">2023</span> winstein01.com. All rights reserved.</p>
+                <div class="mt-4 md:mt-0">
+                    <span class="lang-en">Monster Survivors - The ultimate survival experience!</span>
+                    <span class="lang-zh hidden">Monster Survivors - 终极生存体验！</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 语言切换
+            const toggleButton = document.getElementById('toggle-lang');
+            const enElements = document.querySelectorAll('.lang-en');
+            const zhElements = document.querySelectorAll('.lang-zh');
+            
+            toggleButton.addEventListener('click', function() {
+                enElements.forEach(el => el.classList.toggle('hidden'));
+                zhElements.forEach(el => el.classList.toggle('hidden'));
+                
+                // 更新HTML语言属性
+                const html = document.querySelector('html');
+                html.lang = html.lang === 'en' ? 'zh' : 'en';
+            });
+
+            // 自动更新版权年份
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html> 
